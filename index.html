@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Countrty Guide App</title>
+    <!-- CSS -->
+    <link rel="stylesheet" href="./css/normalize.css">
+    <link rel="stylesheet" href="./css/stayles.css">
+</head>
+
+<body>
+    <!-- MAIN -->
+    <main class="main-content">
+        <div class="container">
+            <div class="wrapper">
+                <!-- SEARCH -->
+                <form class="search-form form" action="https://echo.htmlacademy.ru" method="GET">
+                    <div class="filters-search-wrapper filters-search">
+                        <input class="search-form__input" type="search" name="search" required
+                            placeholder="Search for a country…" aria-label="Country name">
+                    </div>
+                    <button type="submit" class="btn">Search</button>
+                </form>
+                <!-- REGIONS -->
+                <section class="regions">
+                    <ul class="regions__list">
+                    </ul>
+                </section>
+            </div>
+        </div>
+    </main>
+
+    <!-- Loader -->
+    <div class="overlay hidden" id="overlay">
+        <div class="lds-ring">
+            <div></div>
+            <div></div>
+            <div></div>
+            <div></div>
+        </div>
+    </div>
+
+    <!-- js -->
+    <script src="./js/main.js"></script>
+</body>
+
+</html>
