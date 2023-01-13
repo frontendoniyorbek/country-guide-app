@@ -62,3 +62,10 @@ function update(date) {
         }
     })
 }
+
+elForm.addEventListener('submit', (e) => {
+    e.preventDefault()
+    const countryName = elForm.search.value.trim()
+    console.log(countryName);
+    elForm.reset()
+})
