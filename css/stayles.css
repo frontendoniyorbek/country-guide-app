@@ -124,6 +124,7 @@ img{
     width: 100%;
     padding-left: 4rem;
     padding-right: 4rem;
+    text-align: center;
 }
 
 /* SEARCH */
@@ -194,7 +195,6 @@ img{
     width: 350px;
     height: 54%;
     object-fit: cover;
-    border-radius: 5px;
 }
 
 .regions__content {
